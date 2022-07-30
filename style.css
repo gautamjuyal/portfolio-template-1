@@ -73,12 +73,19 @@ html {
 .sm {
     display: flex;
     align-items: center;
-    gap: 10px;
     border: 1px solid #E2DCC8;
     border-radius: 10px;
     padding: 5px;
     color: white;
     cursor: pointer;
+}
+
+.sm a{
+    display:flex;
+    text-decoration:none;
+    color:inherit;
+    align-items:center;
+    gap:10px;
 }
 
 .sm:hover {
