@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+  .header {
+    padding: 0 15px;
+  }
+  .hide_nav {
+    display: none !important;
+  }
+  .ham-menu {
+    display: block;
+  }
+  .ham-menu img {
+    width: 30px;
+    height: 30px;
+  }
+  .intro {
+    padding: 2rem 1.5rem;
+    flex-flow: column;
+    height: auto;
+  }
+  .intro-txt h2:last-of-type,
+  .intro-txt p {
+    font-size: 16px;
+  }
+  .profile-img {
+    margin-top: 2rem;
+  }
+  .achievements {
+    width: 100%;
+    gap: 1rem;
+  }
+  .achievements h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .achievements ul {
+    padding: 10px 20px;
+  }
+  .achievements li {
+    font-size: 1rem;
+  }
+  .sk-ach {
+    height: auto;
+    padding: 0px 0px;
+    gap: 1rem;
+    /* background-image: linear-gradient(90deg, #0F3D3E, #2C3333); */
+  }
+  .skills {
+    width: 100%;
+    padding-left: 0px;
+    padding: 20px;
+  }
+  .skills .heading h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .elements {
+    padding: 20px;
+    overflow-x: scroll;
+    gap: 20px;
+    justify-content: center;
+  }
+  .projects {
+    padding: 0px 20px;
+    height: auto;
+  }
+  .projects .heading {
+    margin-top: 1.6rem;
+  }
+  .projects .heading h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .project-section {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 3rem 1rem;
+  }
+  .proj {
+    width: auto;
+  }
+  .contact {
+    height: auto;
+    padding: 10px 20px;
+  }
+  .contact h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .contact-info {
+    justify-content: space-around;
+    flex-flow: wrap;
+    height: auto;
+    gap: 0rem;
+    padding: 40px 10px;
+  }
+  .nav {
+    position: relative;
+    width: auto;
+  }
+  .show {
+    display: flex !important;
+    flex-flow: column;
+    position: absolute;
+    top: 180%;
+    /* left: -200%; */
+    right: 100%;
+    background-color: #2c3333;
+    max-width: 900px;
+    box-shadow: 4px -4px 20px #c4c4c4;
+    padding: 20px;
+  }
+}
