@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>Portfolio - Gautam Juyal</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <script src="effects.js" defer></script> -->
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="logo">Gautam Juyal </div>
-        <div class="nav">
-            <ul>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <div class="logo">Gautam Juyal</div>
+      <div class="nav">
+        <span class="ham-menu" id="ham-menu">
+          <img src="./Images/ham.png" alt="ham menu" />
+        </span>
+        <ul class="hide_nav" id="dropdown-menu">
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <section class="intro">
-        <div class="intro-txt">
-            <h1>Hi</h1>
-            <h2>I am <span class="highlight">Gautam</span>,</h2>
-            <h2>An aspiring full stack developer.</h2>
-            <p>I'm a tech enthusiast and I love plants.</p>
-        </div>
+      <div class="intro-txt">
+        <h1>Hi</h1>
+        <h2>I am <span class="highlight">Gautam</span>,</h2>
+        <h2>An aspiring full stack developer.</h2>
+        <p>I'm a tech enthusiast and I love plants.</p>
+      </div>
 
-        <div class="profile-img">
-            <img src="Profile-images/photo_2022-01-16_20-40-17.jpg" alt="profile-img">
-        </div>
+      <div class="profile-img">
+        <img
+          src="Profile-images/photo_2022-01-16_20-40-17.jpg"
+          alt="profile-img"
+        />
+      </div>
 
-        <!-- <div class="social-media">
+      <!-- <div class="social-media">
             <div class="sm">
                 <a href = "https://github.com/gautamjuyal" target= blank><img src="Images/icons8-github.svg" alt="GitHub"> GitHub
                 </a>
@@ -57,113 +66,137 @@
                 
             </div>
         </div> -->
-
     </section>
 
     <section class="sk-ach" id="skills">
+      <div class="achievements">
+        <h1>Achievements</h1>
+        <ul>
+          <li>
+            Completed 8 challenges on
+            <a href="http://www.frontendmentor.io">frontendmentor.io</a>
+          </li>
+          <li>CSS skill assessment badge on LinkedIn</li>
+          <li>
+            C++ Silver Badge on
+            <a href="http://www.hackerrank.com" target="blank"
+              >hackerrank.com</a
+            >
+          </li>
+        </ul>
+      </div>
 
-        <div class="achievements">
-            <h1>Achievements</h1>
-            <ul>
-                <li>Completed 8 challenges on
-                    <a href="http://www.frontendmentor.io">frontendmentor.io</a></li>
-                <li>CSS skill assessment badge on LinkedIn</li>
-                <li>C++ Silver Badge on
-                    <a href="http://www.hackerrank.com" target=blank>hackerrank.com</a>
-                </li>
-            </ul>
+      <div class="skills">
+        <div class="heading">
+          <h1>Skills</h1>
         </div>
 
-        <div class="skills">
-            <div class="heading">
-                <h1>Skills</h1>
-            </div>
-
-            <div class="elements">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>C++</span>
-            </div>
+        <div class="elements">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>C++</span>
         </div>
-
-
+      </div>
     </section>
 
     <section class="projects" id="projects">
-        <div class="heading">
-            <h1>Projects</h1>
+      <div class="heading">
+        <h1>Projects</h1>
+      </div>
+      <div class="project-section">
+        <div class="proj">
+          <h2>Portfolio Website</h2>
+          <p>
+            Created personal portfolio website using semantic HTML and vanilla
+            CSS. The colors were taken from colorhunt.co website. The portfolio
+            is open source and can be used by anyone. Learned more about CSS
+            with this project.
+          </p>
+          <a
+            href="https://gautamjuyal.github.io/portfolio-template-1/"
+            target="blank"
+          >
+            View Deployment</a
+          >
         </div>
-        <div class="project-section">
-
-            <div class="proj">
-                <h2>Portfolio Website</h2>
-                <p> Created personal portfolio website using semantic HTML and vanilla CSS. The colors were taken from colorhunt.co website. The portfolio is open source and can be used by anyone. Learned more about CSS with this project. </p>
-                <a href="https://gautamjuyal.github.io/portfolio-template-1/" target=blank> View Deployment</a>
-            </div>
-            <div class="proj">
-                <h2>Game Card Component</h2>
-                <p>Created Game card component on codepen.io<br> Used vanilla CSS to create the design and animations. Gained decent knowledge about css grid and css transitions while working on the project.</p>
-                <a href="https://codepen.io/gautamjuyal/pen/bGvyBem" target=blank> View Deployment</a>
-            </div>
-
-            <div class="proj">
-                <h2>FAQ Accordion</h2>
-                <p>Created FAQ accordion component from frontendmentor.io<br> Used vanilla CSS for styles and JavaScript for FAQ interactions. Explored different approaches to create interactive elements.</p>
-                <a href="https://gautamjuyal.github.io/faq-accordion/" target=blank> View Deployment</a>
-            </div>
-
+        <div class="proj">
+          <h2>Game Card Component</h2>
+          <p>
+            Created Game card component on codepen.io<br />
+            Used vanilla CSS to create the design and animations. Gained decent
+            knowledge about css grid and css transitions while working on the
+            project.
+          </p>
+          <a href="https://codepen.io/gautamjuyal/pen/bGvyBem" target="blank">
+            View Deployment</a
+          >
         </div>
+
+        <div class="proj">
+          <h2>FAQ Accordion</h2>
+          <p>
+            Created FAQ accordion component from frontendmentor.io<br />
+            Used vanilla CSS for styles and JavaScript for FAQ interactions.
+            Explored different approaches to create interactive elements.
+          </p>
+          <a href="https://gautamjuyal.github.io/faq-accordion/" target="blank">
+            View Deployment</a
+          >
+        </div>
+      </div>
     </section>
 
     <footer class="contact" id="contact">
-        <h1>Contact</h1>
+      <h1>Contact</h1>
 
-        <div class="contact-info">
-            <div class="con-attr">
-                <img src="Images/home_pin_FILL0_wght400_GRAD0_opsz48.svg" alt="location">
-                <span>Uttarakhand, India</span>
-            </div>
-            <div class="con-attr">
-                <img src="Images/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="email">
-                <span><a href="mailto: gautam.juyal.94@gmail.com">gautam.juyal.94@gmail.com</a></span>
-            </div>
+      <div class="contact-info">
+        <div class="con-attr">
+          <img
+            src="Images/home_pin_FILL0_wght400_GRAD0_opsz48.svg"
+            alt="location"
+          />
+          <span>Uttarakhand, India</span>
         </div>
-
-        <div class="social-media">
-            <div class="sm">
-                <a href="https://github.com/gautamjuyal" target=blank><img src="Images/icons8-github.svg" alt="GitHub">
-                </a>
-
-            </div>
-            <div class="sm">
-                <a href="https://www.linkedin.com/in/gautamjuyal/" target=blank><img src="Images/icons8-linkedin-circled.svg" alt="LinkedIn">
-                </a>
-
-            </div>
-            <div class="sm">
-                <a href="https://twitter.com/GautamJuyal" target=blank><img src="Images/icons8-twitter.svg" alt="Twitter">
-                </a>
-
-            </div>
-            <div class="sm">
-                <a href="https://codepen.io/gautamjuyal" target=blank><img src="Images/icons8-codepen-30.svg" alt="Codepen">
-                </a>
-
-
-
-            </div>
+        <div class="con-attr">
+          <img src="Images/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="email" />
+          <span
+            ><a href="mailto: gautam.juyal.94@gmail.com"
+              >gautam.juyal.94@gmail.com</a
+            ></span
+          >
         </div>
+      </div>
 
-        <div class="credits">
-            <p>Designed and Coded by <span class="highlight">Gautam Juyal</span></p>
-            <!-- <p>Additional contribution by <span class="highlight">XYZ</span> </p> -->
+      <div class="social-media">
+        <div class="sm">
+          <a href="https://github.com/gautamjuyal" target="blank"
+            ><img src="Images/icons8-github.svg" alt="GitHub" />
+          </a>
         </div>
+        <div class="sm">
+          <a href="https://www.linkedin.com/in/gautamjuyal/" target="blank"
+            ><img src="Images/icons8-linkedin-circled.svg" alt="LinkedIn" />
+          </a>
+        </div>
+        <div class="sm">
+          <a href="https://twitter.com/GautamJuyal" target="blank"
+            ><img src="Images/icons8-twitter.svg" alt="Twitter" />
+          </a>
+        </div>
+        <div class="sm">
+          <a href="https://codepen.io/gautamjuyal" target="blank"
+            ><img src="Images/icons8-codepen-30.svg" alt="Codepen" />
+          </a>
+        </div>
+      </div>
 
+      <div class="credits">
+        <p>Designed and Coded by <span class="highlight">Gautam Juyal</span></p>
+        <!-- <p>Additional contribution by <span class="highlight">XYZ</span> </p> -->
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
